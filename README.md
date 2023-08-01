@@ -21,7 +21,7 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 ```
 2. Acesse o diretório do projeto:
 ```
-cd exercicios-api-
+cd exercicios-api
 ```
 
 ## Licença
