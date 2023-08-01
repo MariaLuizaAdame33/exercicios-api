@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ExercicioCincoController;
 use App\Http\Controllers\ExercicioDois;
 use App\Http\Controllers\ExercicioQuatroController;
 use App\Http\Controllers\ExercicioTresController;
@@ -17,3 +18,6 @@ Route::post('exercicio/tres',
 
 Route::post('exercicio/quatro',
 [ExercicioQuatroController::class, 'verificarNumero']);
+
+Route::post('exercicio/cinco',
+[ExercicioCincoController::class, 'verificarDivisivel']);
