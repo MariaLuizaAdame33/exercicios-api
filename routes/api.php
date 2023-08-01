@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ExercicioCincoController;
 use App\Http\Controllers\ExercicioDois;
+use App\Http\Controllers\ExercicioOitoController;
 use App\Http\Controllers\ExercicioQuatroController;
 use App\Http\Controllers\ExercicioSeteController;
 use App\Http\Controllers\ExercicioTresController;
@@ -28,3 +29,6 @@ Route::post('exercicio/seis',
 
 Route::get('exercicio/sete',
 [ExercicioSeteController::class, 'exibirNumeros']);
+
+Route::post('exercicio/oito',
+[ExercicioOitoController::class, 'exibirTabuada']);
