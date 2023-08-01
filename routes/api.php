@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ExercicioDois;
 use App\Http\Controllers\ExercicioUm;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -16,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::post('exercicio/um',[ExercicioUm::class, 'multiplicar']);
+
+Route::post('exercicio/dois',[ExercicioDois::class, 'retornarMaior']);
