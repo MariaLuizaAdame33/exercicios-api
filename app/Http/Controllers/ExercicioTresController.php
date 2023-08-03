@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ExercicioTresFormRequest;
 use Illuminate\Http\Request;
 
 class ExercicioTresController extends Controller
 {
-    public function exibirMedia(Request $request){
+    public function exibirMedia(ExercicioTresFormRequest $request){
         $n1 = $request-> n1;
         $n2 = $request-> n2;
         $n3 = $request-> n3;
